@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AirBnB Clone</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../static/scripts/1-hbnb.js?{{ cache_id }}"></script>
+    <link rel="stylesheet" type="text/css" href="../static/styles/4-common.css?{{ cache_id }}">
+    <link rel="stylesheet" type="text/css" href="../static/styles/3-header.css?{{ cache_id }}">
+    <link rel="stylesheet" type="text/css" href="../static/styles/3-footer.css?{{ cache_id }}">
+    <link rel="stylesheet" type="text/css" href="../static/styles/6-filters.css?{{ cache_id }}">
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+    </header>
+    <div class="container">
+        <section class="filters">
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <h4>&nbsp;</h4>
+                <ul class="popover">
+                    <li><input type="checkbox" data-id="1" data-name="Wifi" style="margin-left: 10px;"> Wifi</li>
+                    <li><input type="checkbox" data-id="2" data-name="TV" style="margin-left: 10px;"> TV</li>
+                    <li><input type="checkbox" data-id="3" data-name="Pool" style="margin-left: 10px;"> Pool</li>
+                    <li><input type="checkbox" data-id="4" data-name="Kitchen" style="margin-left: 10px;"> Kitchen</li>
+                </ul>
+            </div>
+            <button>Search</button>
+        </section>
+    </div>
+    <footer>
+        <p>Best School</p>
+    </footer>
+</body>
+</html>
